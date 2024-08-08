@@ -1,0 +1,36 @@
+.wave-container {
+    position: relative;
+    width: 100%;
+    height: 240px;
+    background: var(--color-bg-bege-areia);
+}
+
+.wave-container svg {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: var(--color-verde-mandacaru);
+}
+
+#footer_items {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 8% 24px 8%;
+    align-items: center;
+}
+
+#copyright {
+    color: var(--color-preto-1);;
+    font-weight: 500;
+}
+
+@media screen and (max-width: 600px) {
+    #footer_items {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
